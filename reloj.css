@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+  }
+  #reloj{
+    cursor: default;
+    user-select: none;
+    background: rgba(255,255,255,0.1);
+    font-size: 14vw;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-center: center;
+    
+    
+    
+    
+  }
+  
+  body{
+    background: url(https://media4.giphy.com/media/4OV1bLOIWwIXRxpXlN/giphy.gif?cid=6c09b952xhrwy1xnulqg4mhiifn93dgcda1mrmdgr2b3qvzd&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+   background-size: cover;
+      height: 100vh;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+  
+  }
+  
+  span{
+      text-shadow: 2px 2px 4px rgba(0 ,0 ,0 , 0.5);
+  
+    
+   }
+  
+  #reloj{
+      font-size: 10vw;
+    cursor: default;
+    user-select: none;
+    transition: 500ms;
+      }
+  
+  #reloj:hover{
+      font-size: 18vw;
+    transition: 500ms;
+    text-shadow: 0px 0px 20px black;
+    color: white;
+    }
